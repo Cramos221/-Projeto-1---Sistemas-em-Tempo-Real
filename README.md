@@ -3,7 +3,7 @@
 
 Um simulador de estacionamento multithread desenvolvido em C utilizando a biblioteca POSIX Threads (`pthreads`). O sistema simula a chegada, alocação e saída de veículos, gerenciando vagas comuns e preferenciais (PCD) de forma sincronizada e com uma interface visual no terminal.
 
-## 🚀 Funcionalidades e Arquitetura
+## Funcionalidades e Arquitetura
 
 * **Simulação Concorrente**: Utiliza threads independentes para representar cada carro no sistema e uma thread central dedicada ao Controlador do estacionamento.
 * **Gerenciamento de Vagas**: O estacionamento possui um total de 10 vagas, sendo 8 vagas comuns e 2 vagas exclusivas para PCD. O sistema é dimensionado para simular um fluxo total de 20 carros.
@@ -12,7 +12,7 @@ Um simulador de estacionamento multithread desenvolvido em C utilizando a biblio
 * **Interface Visual (CLI)**: Apresenta logs com cores ANSI e um mapa de vagas dinâmico, exibindo a ocupação em tempo real e uma barra de progresso visual.
 * **Relatório Estatístico**: Ao final de toda a simulação, o sistema gera um relatório detalhando o fluxo de veículos, os tempos (máximo, mínimo e médio) de permanência e a quantidade de uso por cada vaga.
 
-## 🛠️ Compilação e Execução
+## Compilação e Execução
 
 O projeto inclui um `Makefile` já configurado para facilitar a compilação via `gcc`. 
 
